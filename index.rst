@@ -12,6 +12,7 @@ Welcome to ROS2 nao's documentation!
    :caption: Contents:
 
    nao_state_publisher
+   related-ros2-packages
 
 
 
