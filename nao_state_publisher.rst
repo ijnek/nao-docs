@@ -1,5 +1,5 @@
-nao_state_publisher Node
-************************
+Nao State Publisher
+*******************
 
 Inherits `robot_state_publisher`_ , but rather than listening for topic:
 

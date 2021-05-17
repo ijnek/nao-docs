@@ -3,22 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ROS2 nao's documentation!
-====================================
+ROS2 Nao
+========
+
+This project consists of ROS2 packages specific to the Softbank Nao robot.
 
 .. toctree::
-   :hidden:
    :maxdepth: 2
    :caption: Contents:
 
+   installation
    nao_state_publisher
    related-ros2-packages
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
