@@ -8,6 +8,8 @@ ROS2 Nao
 
 This project consists of ROS2 packages specific to the Softbank Nao robot.
 
+The project is hosted on `Github`_.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -16,3 +18,4 @@ This project consists of ROS2 packages specific to the Softbank Nao robot.
    nao_state_publisher
    related-ros2-packages
 
+.. _Github: https://github.com/ijnek/nao
