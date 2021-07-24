@@ -19,6 +19,10 @@ In your ROS2 workspace, clone the repository:
 Install 3D model
 *****************
 
+.. warning::
+
+    Don't change the install directory in the installer
+
 Due to software licensing issues, the 3D models for the Nao cannot be included
 in this repository, so it must be manually installed using the following instructions:
 
@@ -30,9 +34,6 @@ in this repository, so it must be manually installed using the following instruc
     mv -t ../  meshes/ texture/
     cd ../ && rm -rf tmp/ && cd ../../../
 
-.. warning::
-
-    Don't change the install directory in the installer
 
 Building
 ********
