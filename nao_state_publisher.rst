@@ -1,17 +1,35 @@
 Nao State Publisher
-*******************
+###################
 
-Inherits `robot_state_publisher`_ , but rather than listening for topic:
+The Nao State Publisher inherits from, and achieves the same purpose as a `robot_state_publisher`_,
+to publish ROS transforms.
 
-* **joint_states** (`sensor_msgs/JointState`_)
+Running the nao_state_publisher
+*******************************
 
-it listens for topic:
+Start the nao_state_publisher:
+
+.. code-block:: console
+
+   ros2 launch nao_state_publisher nao_state_publisher_launch.py
+
+Why not use `robot_state_publisher`_?
+*************************************
+
+The nao_state_publisher listens to msgs specific to the NAO robot, which cannot be achieved
+with the robot_state_publisher.
+
+Specifically, rather than subscribing to 
+
+* **joint_states** (`sensor_msgs/JointState`_) - which robot_state_publisher does
+
+the nao_state_publisher subscribes to nao-specific joint positions
 
 * **sensors/joint_positions** (`nao_sensor_msgs/msg/JointPositions`_)
 
-and publishes ROS2 transforms. 
+.. seealso::
 
-See `robot_state_publisher`_'s documentation for more details.
+  `robot_state_publisher`_'s documentation for more details.
 
 
 .. _robot_state_publisher: http://wiki.ros.org/robot_state_publisher
