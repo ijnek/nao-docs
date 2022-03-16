@@ -31,7 +31,8 @@ Run the following:
 
 .. code-block:: console
 
-    nao_description/install.sh
+    
+    src/nao/nao_description/install.sh
 
 
 Building
