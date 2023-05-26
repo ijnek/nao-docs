@@ -14,7 +14,6 @@ In your ROS2 workspace, clone the repository:
 .. code-block:: console
 
    git clone https://github.com/ijnek/nao.git src/nao
-   vcs import src < src/nao/dependencies.repos
 
 Install 3D model
 *****************
