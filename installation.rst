@@ -9,11 +9,12 @@ Installation
 Cloning repositories
 ********************
 
-In your ROS2 workspace, clone the repository:
+In your ROS2 workspace, clone the repository, and install dependencies:
 
 .. code-block:: console
 
    git clone https://github.com/ijnek/nao.git src/nao
+   rosdep install --from-paths src --ignore-src -y
 
 Install 3D model
 *****************
