@@ -11,10 +11,26 @@ Cloning repositories
 
 In your ROS2 workspace, clone the repository, and install dependencies:
 
-.. code-block:: console
+.. tabs::
 
-   git clone https://github.com/ijnek/nao.git src/nao
-   rosdep install --from-paths src --ignore-src -y
+    .. group-tab:: Humble / Iron
+
+        If using Humble or Iron, use the ``iron`` branch:
+
+        .. code-block:: console
+
+            git clone https://github.com/ijnek/nao.git -b iron src/nao
+            rosdep install --from-paths src --ignore-src -y
+
+    .. group-tab:: Rolling / J-turtle onwards
+
+        Otherwise, use the default branch:
+
+        .. code-block:: console
+
+            git clone https://github.com/ijnek/nao.git src/nao
+            rosdep install --from-paths src --ignore-src -y
+
 
 Install 3D model
 *****************
@@ -31,7 +47,7 @@ Run the following:
 
 .. code-block:: console
 
-    
+
     src/nao/nao_description/install.sh
 
 
