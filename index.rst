@@ -6,7 +6,7 @@
 ROS2 Nao
 ========
 
-This project consists of ROS2 packages specific to the Softbank Nao robot.
+This project consists of ROS2 packages specific to the Aldebaran Nao robot.
 
 The project is hosted on `Github`_.
 
