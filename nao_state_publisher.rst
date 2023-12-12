@@ -1,6 +1,11 @@
 Nao State Publisher
 ###################
 
+.. warning::
+
+  Nao State Publisher is deprecated in ROS 2 J-turtle and will be removed in ROS 2 K-turtle.
+  Please :ref:`use robot state publisher directly<rsp_example>` instead.
+
 The Nao State Publisher inherits from, and achieves the same purpose as a `robot_state_publisher`_,
 to publish ROS transforms.
 

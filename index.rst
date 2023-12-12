@@ -15,6 +15,7 @@ The project is hosted on `Github`_.
    :caption: Contents:
 
    installation
+   usage
    nao_state_publisher
    related-ros2-packages
 
