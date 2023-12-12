@@ -1,5 +1,5 @@
-Nao State Publisher
-###################
+Nao State Publisher (Deprecated)
+################################
 
 .. warning::
 
